@@ -1,0 +1,85 @@
+.notice {
+  &-title {
+    text-align: center;
+    padding-bottom: 24px;
+    h3 {
+      font: {
+        size: $fs80;
+        weight: $fwBlack;
+      }
+      background: linear-gradient(90deg, #F4B38C 13.87%, #FAC7A2 25.25%, #FDCFAB 36.64%, #EFA077 133.41%, #E59E7B 224.49%, #E8A27D 252.96%, #F4B085 287.11%, #FCB98A 298.5%, #EBA37F 406.66%, #FDCEA1 514.82%, #FBC99D 531.9%, #F7BC91 554.67%, #F1A77D 577.44%, #EFA077 583.13%);
+      color: transparent;
+      -webkit-background-clip: text;
+    }
+  }
+  &-table{
+    &-title {
+      font-size: $fs24;
+      color: $white;
+      margin-bottom: 12px;
+    }
+    table{
+      margin-bottom: 60px;
+      width: 100%;
+      color: $white;
+      tr {
+        border-top: 1px solid $whiteOpcity5;
+        border-bottom: 1px solid $whiteOpcity5;
+      }
+      th{
+        padding: 24px;
+        background-color: #212121;
+        color: $whiteOpcity8;
+      }
+      td {
+        padding: 16px 24px;
+      }
+      td {
+        text-align: center;
+        &:nth-child(2){
+          text-align: left;
+        }
+      }
+    }
+  }
+  &-list {
+    &-wrap {
+      padding: 0 20px;
+      p {
+        margin-bottom: 12px;
+        font-size: 22px;
+        color: $white;
+      }
+    }
+    &-title {
+      .notice-list-table {
+        margin-bottom: 50px;
+      }
+    }
+    &-table {
+      width: 100%;
+      color: $white;
+      tbody {
+        tr {
+          th {
+            border: 1px solid $white;
+            font-size: $fs16;
+            padding: 20px 40px;
+          }
+          td {
+            border: 1px solid $white;
+            font-size: $fs16;
+            padding: 20px 40px;
+            a {
+              color: $white;
+            }
+          }
+        }
+      }
+      &-content {
+        height: 580px;
+        vertical-align: baseline;
+      }
+    }
+  }
+}

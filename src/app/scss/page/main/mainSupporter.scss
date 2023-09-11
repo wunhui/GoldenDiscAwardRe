@@ -1,0 +1,20 @@
+.suppoter{
+  &-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    .child{
+      width: 300px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  &-list{
+    // animation: scrollingLeft2 5s linear infinite;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.l-lang{
+  .lang-wrap{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    .lang-list{
+      color: $white;
+      padding: 0 8px;
+      font-size: $fs16;
+      color: $whiteOpcity8;
+    }
+  }
+}

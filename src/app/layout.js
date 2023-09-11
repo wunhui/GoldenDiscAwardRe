@@ -1,7 +1,14 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
+import { Noto_Sans_KR } from 'next/font/google'
+import Header from '@/app/components/layouts/header'
+import Footer from '@/app/components/layouts/footer'
+import '@/app/scss/common/reset.scss'
 
-const inter = Inter({ subsets: ['latin'] })
+const notoSansKr = Noto_Sans_KR({
+  weight: ['400'],
+  subsets: ['latin'],
+});
+
+
 
 export const metadata = {
   title: 'Create Next App',
@@ -10,8 +17,16 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="ko">
+      <body className={ notoSansKr.className }>
+        <div className='l-container'>
+          <div className='l-wrap'>
+            <Header />
+            {children}
+            <Footer />
+          </div>
+        </div>
+      </body>
     </html>
   )
 }

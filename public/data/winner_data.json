@@ -1,0 +1,222 @@
+{
+  "soundSource": [
+    {
+      "id": 1,
+      "title": "디지털 음원 대상",
+      "groupName": "IVE",
+      "songName": "LOVE DIVE",
+      "url": "/image/page/winner/thumb01.jpg"
+    },
+    {
+      "id": 2,
+      "title": "디지털 음원 대상",
+      "groupName": "(여자)아이들",
+      "songName": "TOMBOY",
+      "url": "/image/page/winner/thumb02.jpg"
+    },
+    {
+      "id": 3,
+      "title": "디지털 음원 대상",
+      "groupName": "BIGBANG(빅뱅)",
+      "songName": "봄여름가을겨울(Still Life)",
+      "url": "/image/page/winner/thumb03.jpg"
+    },
+    {
+      "id": 4,
+      "title": "디지털 음원 대상",
+      "groupName": "IVE",
+      "songName": "LOVE DIVE",
+      "url": "/image/page/winner/thumb04.jpg"
+    },
+    {
+      "id": 5,
+      "title": "디지털 음원 대상",
+      "groupName": "NewJeans",
+      "songName": "Attention",
+      "url": "/image/page/winner/thumb05.jpg"
+    },
+    {
+      "id": 6,
+      "title": "디지털 음원 대상",
+      "groupName": "김민석",
+      "songName": "취중고백",
+      "url": "/image/page/winner/thumb06.jpg"
+    },
+    {
+      "id": 7,
+      "title": "디지털 음원 대상",
+      "groupName": "박재범",
+      "songName": "GANADARA (Feat. 아이유)",
+      "url": "/image/page/winner/thumb07.jpg"
+    },
+    {
+      "id": 8,
+      "title": "디지털 음원 대상",
+      "groupName": "싸이",
+      "songName": "That That (prod. & feat. SUGA of BTS)",
+      "url": "/image/page/winner/thumb08.jpg"
+    },
+    {
+      "id": 9,
+      "title": "디지털 음원 대상",
+      "groupName": "임영웅",
+      "songName": "우리들의 블루스",
+      "url": "/image/page/winner/thumb09.jpg"
+    },
+    {
+      "id": 10,
+      "title": "신인상",
+      "groupName": "IVE",
+      "url": "/image/page/winner/thumb10.jpg"
+    },
+    {
+      "id": 11,
+      "title": "신인상",
+      "groupName": "LE SSERAFIM",
+      "url": "/image/page/winner/thumb11.jpg"
+    },
+    {
+      "id": 12,
+      "title": "신인상",
+      "groupName": "NewJeans",
+      "url": "/image/page/winner/thumb12.jpg"
+    },
+    {
+      "id": 13,
+      "title": "베스트 R&B 힙합",
+      "groupName": "BIG Naughty",
+      "url": "/image/page/winner/thumb13.jpg"
+    },
+    {
+      "id": 14,
+      "title": "베스트 솔로 아티스트",
+      "groupName": "BE'O",
+      "url": "/image/page/winner/thumb14.jpg"
+    },
+    {
+      "id": 15,
+      "title": "베스트 솔로 아티스트",
+      "groupName": "윤하",
+      "url": "/image/page/winner/thumb15.jpg"
+    },
+    {
+      "id": 16,
+      "title": "제작자상",
+      "groupName": "서현주",
+      "url": "/image/page/winner/thumb16.jpg"
+    },
+    {
+      "id": 17,
+      "title": "타이 케이팝 아티스트",
+      "groupName": "세븐틴",
+      "url": "/image/page/winner/thumb17.jpg"
+    },
+    {
+      "id": 18,
+      "title": "THAI FANS SUPPORT with BAOJI",
+      "groupName": "j-hope",
+      "url": "/image/page/winner/thumb18.jpg"
+    }
+  ],
+  "record" : [
+    {
+      "id": 1,
+      "title": "음반 대상",
+      "groupName": "방탄소년단",
+      "songName": "Proof",
+      "url": "/image/page/winner/thumb19.jpg"
+    },
+    {
+      "id": 2,
+      "title": "음반 본상",
+      "groupName": "BLACKPINK",
+      "songName": "BORN PINK",
+      "url": "/image/page/winner/thumb20.jpg"
+    },
+    {
+      "id": 3,
+      "title": "음반 본상",
+      "groupName": "ENHYPEN",
+      "songName": "MANIFESTO : DAY 1",
+      "url": "/image/page/winner/thumb21.jpg"
+    },
+    {
+      "id": 4,
+      "title": "음반 본상",
+      "groupName": "NCT",
+      "songName": "Universe - The 3rd Album",
+      "url": "/image/page/winner/thumb22.jpg"
+    },
+    {
+      "id": 5,
+      "title": "음반 본상",
+      "groupName": "NCT 127",
+      "songName": "질주 (2 Baddies) - The 4th Album",
+      "url": "/image/page/winner/thumb23.jpg"
+    },
+    {
+      "id": 6,
+      "title": "음반 본상",
+      "groupName": "NCT DREAM",
+      "songName": "Glitch Mode - The 2nd Album",
+      "url": "/image/page/winner/thumb24.jpg"
+    },
+    {
+      "id": 7,
+      "title": "음반 본상",
+      "groupName": "Stray Kids",
+      "songName": "MAXIDENT",
+      "url": "/image/page/winner/thumb25.jpg"
+    },
+    {
+      "id": 8,
+      "title": "음반 본상",
+      "groupName": "방탄소년단",
+      "songName": "Proof",
+      "url": "/image/page/winner/thumb26.jpg"
+    },
+    {
+      "id": 9,
+      "title": "음반 본상",
+      "groupName": "세븐틴",
+      "songName": "4th Album `Face the Sun`",
+      "url": "/image/page/winner/thumb27.jpg"
+    },
+    {
+      "id": 10,
+      "title": "베스트 그룹",
+      "groupName": "TREASURE",
+      "url": "/image/page/winner/thumb28.jpg"
+    },
+    {
+      "id": 11,
+      "title": "베스트 퍼포먼스",
+      "groupName": "세븐틴",
+      "url": "/image/page/winner/thumb29.jpg"
+    },
+    {
+      "id": 12,
+      "title": "틱톡 골든디스크 인기상",
+      "groupName": "방탄소년단",
+      "url": "/image/page/winner/thumb30.jpg"
+    },
+    {
+      "id": 13,
+      "title": "최고 인기 가수상",
+      "groupName": "(여자)아이들",
+      "url": "/image/page/winner/thumb31.jpg"
+    },
+    {
+      "id": 14,
+      "title": "최고 인기 가수상",
+      "groupName": "Stray Kids",
+      "url": "/image/page/winner/thumb32.jpg"
+    },
+    {
+      "id": 15,
+      "title": "ARTIST OF THE YEAR",
+      "groupName": "싸이",
+      "url": "/image/page/winner/thumb33.jpg"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+.vote {
+  
+  &-title {
+    text-align: center;
+    padding-bottom: 24px;
+    h3 {
+      font: {
+        size: $fs80;
+        weight: $fwBlack;
+      }
+      background: linear-gradient(90deg, #F4B38C 13.87%, #FAC7A2 25.25%, #FDCFAB 36.64%, #EFA077 133.41%, #E59E7B 224.49%, #E8A27D 252.96%, #F4B085 287.11%, #FCB98A 298.5%, #EBA37F 406.66%, #FDCEA1 514.82%, #FBC99D 531.9%, #F7BC91 554.67%, #F1A77D 577.44%, #EFA077 583.13%);
+      color: transparent;
+      -webkit-background-clip: text;
+    }
+  }
+  &-desc{
+    text-align: center;
+    &_t, &_b { color: $white;}
+    &_t { 
+      font-size: $fs28;
+      margin-bottom: 8px;
+    }
+    &_b { font-size: $fs20;}
+  }
+  &-info {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    &_t {
+      flex: 1 0 20%;
+      h6 {
+        color: $white;
+        font: {
+          size: $fs33;
+          weight: $fwBlack;
+        }
+      }
+    }
+    &-wrap{
+      flex: 1 0 80%;
+      color: $whiteOpcity5;
+      & > p {
+        font-size: $fs18;
+        padding-bottom: 20px;
+      }
+    }
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px 0;
+      padding-top: 20px;
+      border-top: 1px solid $whiteOpcity5;
+      &_title {
+        width: 20%;
+        color: $white;
+      }
+      &_desc {
+        width: 80%;
+        img {
+          width: 180px;
+        }
+        p {
+          &:not(&:first-child) {
+            margin-top: 4px;
+          }
+        }
+        .num {
+          color: $white;
+          margin-right: 4px;
+        }
+      }
+    }
+  }
+}

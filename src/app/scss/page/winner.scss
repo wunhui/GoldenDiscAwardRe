@@ -1,0 +1,102 @@
+.winner {
+  &-title {
+    text-align: center;
+    padding-bottom: 60px;
+    h3 {
+      font: {
+        size: $fs80;
+        weight: $fwBlack;
+      }
+      background: linear-gradient(90deg, #F4B38C 13.87%, #FAC7A2 25.25%, #FDCFAB 36.64%, #EFA077 133.41%, #E59E7B 224.49%, #E8A27D 252.96%, #F4B085 287.11%, #FCB98A 298.5%, #EBA37F 406.66%, #FDCEA1 514.82%, #FBC99D 531.9%, #F7BC91 554.67%, #F1A77D 577.44%, #EFA077 583.13%);
+      color: transparent;
+      -webkit-background-clip: text;
+    }
+  }
+  &-tab {
+    &-wrap{
+      display: flex;
+      width: 100%;
+    }
+    &-list {
+      flex: 1;
+      text-align: center;
+      height: 65px;
+      background-color: $black;
+      color: $white;
+      font-size: $fs24;
+      &.green {
+        background-color: $green;
+      }
+      &.blue {
+        background-color: $blue;
+      }
+    }
+  }
+  &-content{
+    position: relative;
+    color: $white;
+    padding-top: 32px;
+    &_l {
+      position: fixed;
+      width: 402px;
+      background-color: $blue;
+      padding: 28px;
+      &.green {
+        background-color: $green;
+      }
+      &.blue {
+        background-color: $blue;
+      }
+      .text-wrap{
+        display: flex;
+        flex-direction: column;
+        margin-top: 24px;
+        .title{ 
+          font: {
+            size: $fs24; 
+            weight: $fwBold;
+          }
+        }
+        .group-name{
+          font-size: $fs18;
+        }
+        .song-name{
+          font-size: $fs18;
+        }
+      }
+    }
+    &_r{
+      padding-left: 422px;
+      width: 100%;
+      .text-wrap{
+        display: flex;
+        flex-direction: column;
+        margin-top: 12px;
+        gap: 4px;
+        .title{
+          color: $orange;
+          font-weight: bold;
+          font-size: $fs18;
+        }
+        .group-name{
+          font-size: $fs14;
+        }
+        .song-name{
+          font-size: $fs14;
+          span {
+            color: $orangeLight;
+            margin-right: 4px;
+          }
+        }
+      }
+    }
+    &-wrap{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    &-list {
+      flex: 0 1 calc((100% / 4) - 20px);
+    }
+  }
+}

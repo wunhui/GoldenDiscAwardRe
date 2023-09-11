@@ -1,0 +1,17 @@
+.footer{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: auto;
+  padding: 60px 0;
+  .sns {
+    &-wrap {
+      display: flex;
+      gap: 12px;
+    }
+    &-list {
+      width: 36px;
+      height: 36px;
+    }
+  }
+}
