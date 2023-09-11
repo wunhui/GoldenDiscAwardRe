@@ -9,6 +9,22 @@
       font-weight: $fwSemiBold;
       padding: 0 8px;
       font-size: $fs18;
+      &.active {
+        position: relative;
+        a{
+          color: $orangeDark;
+        }
+        &::before{
+          content: '';
+          display: block;
+          position: absolute;
+          left: 4px;
+          bottom: -4px;
+          width: calc(100% - 8px);
+          height: 3px;
+          background-color: $orangeDark;
+        }
+      }
       a {
         color: $white;
         &:hover{
