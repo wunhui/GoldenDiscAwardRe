@@ -38,7 +38,7 @@ export default function Notice1() {
                       <td>{item.title}</td>
                     </tr>
                     <tr>
-                      <td colSpan="2" className='notice-list-table-content'>{item.content}</td>
+                      <td colSpan="2" className='notice-list-table-content' dangerouslySetInnerHTML={{__html: item.content}} />
                     </tr>
                   </tbody>
                 </table>
