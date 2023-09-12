@@ -1,103 +1,221 @@
-.history {
-  color: $white;
-  &-title {
-    text-align: center;
-    padding-bottom: 60px;
-    h3 {
-      font: {
-        size: $fs80;
-        weight: $fwBlack;
-      }
-      background: linear-gradient(90deg, #F4B38C 13.87%, #FAC7A2 25.25%, #FDCFAB 36.64%, #EFA077 133.41%, #E59E7B 224.49%, #E8A27D 252.96%, #F4B085 287.11%, #FCB98A 298.5%, #EBA37F 406.66%, #FDCEA1 514.82%, #FBC99D 531.9%, #F7BC91 554.67%, #F1A77D 577.44%, #EFA077 583.13%);
-      color: transparent;
-      -webkit-background-clip: text;
-    }
-  }
-  h4 {
-    font-size: $fs20;
-    margin-bottom: 12px;
-  }
-  &-wrap {
-    .l-table {
-      display: flex;
-      & + h4 {
-        margin-top: 60px;
-      }
-      & > div {
-        flex: 1;
-      }
-      table {
-        width: 100%;
-        text-align: center;
-        border-collapse : collapse;
-        height: 100%;
-        thead {
-          tr {
-            th {
-              height: 50px;
-              font-size: $fs18;
-              background-color: $orange;
-              color: $black;
-              position: relative;
-            }
-            &:nth-of-type(1) {
-              // background: linear-gradient(to top, #E73D00 -19%, #FD9C6F 28%, #E96B35 100%);
-            }
-            &:nth-of-type(2) {
-              th {
-                background-color:#212121;
-                color: #fff;
-                font-size: $fs14;
-              }
-            }
-          }
-        }
-        tbody {
-          tr {
-            th, td {
-              border: 1px solid $whiteOpcity5;
-            }
-            th {
-              // color: #F1F1F1;
-              background: linear-gradient(to left, #E73D00 7%, #FD9C6F 23%, #E96B35 70%);
-              background-clip: text;
-              -webkit-background-clip: text;
-              color: transparent;
-              font-size: 14px;
-              padding: 20px 0;
-              position: relative;
-              &::after {
-                position: absolute;
-                content: '';
-                display: inline-table;
-              }
-            }
-            td {
-              padding: 12px 0;
-              color: $white;
-            };
-
-          }
-        }
-      }
-    }
-  }
-  &-tab {
-    margin-bottom: 60px;
-    &-wrap{
-      display: flex;
-      width: 100%;
-    }
-    &-list {
-      flex: 1;
+@media (min-width: 1281px) {
+  .history {
+    color: $white;
+    &-title {
       text-align: center;
-      height: 65px;
-      background-color: $black;
-      color: $white;
-      font-size: $fs24;
-      &.green {
-        background-color: $green;
+      padding-bottom: 60px;
+      h3 {
+        font: {
+          size: $fs80;
+          weight: $fwBlack;
+        }
+        background: linear-gradient(90deg, #F4B38C 13.87%, #FAC7A2 25.25%, #FDCFAB 36.64%, #EFA077 133.41%, #E59E7B 224.49%, #E8A27D 252.96%, #F4B085 287.11%, #FCB98A 298.5%, #EBA37F 406.66%, #FDCEA1 514.82%, #FBC99D 531.9%, #F7BC91 554.67%, #F1A77D 577.44%, #EFA077 583.13%);
+        color: transparent;
+        -webkit-background-clip: text;
       }
+    }
+    h4 {
+      font-size: $fs20;
+      margin-bottom: 12px;
+    }
+    &-wrap {
+      .l-table {
+        display: flex;
+        & + h4 {
+          margin-top: 60px;
+        }
+        & > div {
+          flex: 1;
+        }
+        table {
+          width: 100%;
+          text-align: center;
+          border-collapse : collapse;
+          height: 100%;
+          thead {
+            tr {
+              th {
+                height: 50px;
+                font-size: $fs18;
+                background-color: $orange;
+                color: $black;
+                position: relative;
+              }
+              &:nth-of-type(1) {
+                // background: linear-gradient(to top, #E73D00 -19%, #FD9C6F 28%, #E96B35 100%);
+              }
+              &:nth-of-type(2) {
+                th {
+                  background-color:#212121;
+                  color: #fff;
+                  font-size: $fs14;
+                }
+              }
+            }
+          }
+          tbody {
+            tr {
+              th, td {
+                border: 1px solid $whiteOpcity5;
+              }
+              th {
+                // color: #F1F1F1;
+                background: linear-gradient(to left, #E73D00 7%, #FD9C6F 23%, #E96B35 70%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+                font-size: 14px;
+                padding: 20px 0;
+                position: relative;
+                &::after {
+                  position: absolute;
+                  content: '';
+                  display: inline-table;
+                }
+              }
+              td {
+                padding: 12px 0;
+                color: $white;
+              };
+  
+            }
+          }
+        }
+      }
+    }
+    &-tab {
+      margin-bottom: 60px;
+      &-wrap{
+        display: flex;
+        width: 100%;
+      }
+      &-list {
+        flex: 1;
+        text-align: center;
+        height: 65px;
+        background-color: $black;
+        color: $white;
+        font-size: $fs24;
+        &.green {
+          background-color: $green;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1280px) {
+  .history {
+    color: $white;
+    &-title {
+      text-align: center;
+      padding-bottom: 12px;
+      h3 {
+        font: {
+          size: $fs33;
+          weight: $fwBlack;
+        }
+        background: linear-gradient(90deg, #F4B38C 13.87%, #FAC7A2 25.25%, #FDCFAB 36.64%, #EFA077 133.41%, #E59E7B 224.49%, #E8A27D 252.96%, #F4B085 287.11%, #FCB98A 298.5%, #EBA37F 406.66%, #FDCEA1 514.82%, #FBC99D 531.9%, #F7BC91 554.67%, #F1A77D 577.44%, #EFA077 583.13%);
+        color: transparent;
+        -webkit-background-clip: text;
+      }
+    }
+    h4 {
+      font-size: $fs18;
+      margin-bottom: 12px;
+    }
+    &-wrap {
+      .l-table {
+        display: flex;
+        &_twin {
+          flex-direction: column;
+        }
+        & + h4 {
+          margin-top: 60px;
+        }
+        & > div {
+          flex: 1;
+        }
+        table {
+          width: 100%;
+          text-align: center;
+          border-collapse : collapse;
+          height: 100%;
+          thead {
+            tr {
+              th {
+                height: 50px;
+                font-size: $fs16;
+                background-color: $orange;
+                color: $black;
+                position: relative;
+              }
+              &:nth-of-type(1) {
+                // background: linear-gradient(to top, #E73D00 -19%, #FD9C6F 28%, #E96B35 100%);
+              }
+              &:nth-of-type(2) {
+                th {
+                  background-color:#212121;
+                  color: #fff;
+                  font-size: $fs14;
+                }
+              }
+            }
+          }
+          tbody {
+            tr {
+              th, td {
+                border: 1px solid $whiteOpcity5;
+              }
+              th {
+                // color: #F1F1F1;
+                background: linear-gradient(to left, #E73D00 7%, #FD9C6F 23%, #E96B35 70%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+                font-size: 14px;
+                padding: 20px 0;
+                position: relative;
+                &::after {
+                  position: absolute;
+                  content: '';
+                  display: inline-table;
+                }
+              }
+              td {
+                padding: 12px 0;
+                color: $white;
+                font-size: $fs14
+              };
+  
+            }
+          }
+        }
+      }
+    }
+    &-tab {
+      margin-bottom: 60px;
+      &-wrap{
+        display: flex;
+        width: 100%;
+      }
+      &-list {
+        flex: 1;
+        text-align: center;
+        height: 65px;
+        background-color: $black;
+        color: $white;
+        font-size: $fs16;
+        &.green {
+          background-color: $green;
+        }
+      }
+    }
+    select {
+      width: 100%;
+      height: 40px;
+      padding: 0 4px;
+      margin-bottom: 24px;
+      font-size: $fs16;
     }
   }
 }

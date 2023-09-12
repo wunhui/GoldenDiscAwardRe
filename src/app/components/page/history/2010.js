@@ -124,6 +124,8 @@ export default function year1990() {
                         <thead>
                           <tr>
                             <th colSpan="3">1일차 ｜ 음반 부문</th>
+                          </tr>
+                          <tr>
                             <th/>
                             <th>아티스트</th>
                             <th>앨범</th>
@@ -223,6 +225,8 @@ export default function year1990() {
                         <thead>
                           <tr>
                             <th colSpan="3">2일차 ｜ 디지털음원 부문</th>
+                          </tr>
+                          <tr>
                             <th/>
                             <th>아티스트</th>
                             <th>곡명</th>
@@ -317,6 +321,8 @@ export default function year1990() {
                         <thead>
                           <tr>
                             <th colSpan="3">1일차 ｜ 음반 부문</th>
+                          </tr>
+                          <tr>
                             <th/>
                             <th>아티스트</th>
                             <th>앨범</th>
@@ -402,6 +408,8 @@ export default function year1990() {
                         <thead>
                           <tr>
                             <th colSpan="3">2일차 ｜ 디지털음원 부문</th>
+                          </tr>
+                          <tr>
                             <th/>
                             <th>아티스트</th>
                             <th>곡명</th>
@@ -513,6 +521,8 @@ export default function year1990() {
                         <thead>
                         <tr>
                             <th colSpan="3">1일차 ｜ 디지털음원 부문</th>
+                        </tr>
+                        <tr>
                             <th/>
                             <th>아티스트</th>
                             <th>곡명</th>
@@ -597,6 +607,8 @@ export default function year1990() {
                         <thead>
                           <tr>
                             <th colSpan="3">2일차 ｜ 음반 부문</th>
+                          </tr>
+                          <tr>
                             <th/>
                             <th>아티스트</th>
                             <th>앨범</th>
@@ -689,6 +701,8 @@ export default function year1990() {
                         <thead>
                           <tr>
                             <th colSpan="3">1일차 ｜ 디지털음원 부문</th>
+                          </tr>
+                          <tr>
                             <th/>
                             <th>아티스트</th>
                             <th>곡명</th>
@@ -797,6 +811,8 @@ export default function year1990() {
                         <thead>
                           <tr>
                             <th colSpan="3">2일차 ｜ 음반 부문</th>
+                          </tr>
+                          <tr>
                             <th/>
                             <th>아티스트</th>
                             <th>앨범</th>
@@ -903,6 +919,8 @@ export default function year1990() {
                         <thead>
                           <tr>
                             <th colSpan="3">1일차 ｜ 디지털음원 부문</th>
+                          </tr>
+                          <tr>
                             <th/>
                             <th>아티스트</th>
                             <th>곡명</th>
@@ -991,6 +1009,8 @@ export default function year1990() {
                         <thead>
                           <tr>
                             <th colSpan="3">2일차 ｜ 음반 부문</th>
+                          </tr>
+                          <tr>
                             <th/>
                             <th>아티스트</th>
                             <th>앨범</th>
@@ -1087,6 +1107,8 @@ export default function year1990() {
                         <thead>
                           <tr>
                             <th colSpan="3">1일차 ｜ 디지털음원 부문</th>
+                          </tr>
+                          <tr>
                             <th/>
                             <th>아티스트</th>
                             <th>곡명</th>
@@ -1181,6 +1203,8 @@ export default function year1990() {
                         <thead>
                           <tr>
                             <th colSpan="3">2일차 ｜ 음반 부문</th>
+                          </tr>
+                          <tr>
                             <th/>
                             <th>아티스트</th>
                             <th>앨범</th>
@@ -1274,6 +1298,8 @@ export default function year1990() {
                         <thead>
                           <tr>
                             <th colSpan="3">1일차 ｜ 디지털음원 부문</th>
+                          </tr>
+                          <tr>
                             <th/>
                             <th>아티스트</th>
                             <th>곡명</th>
@@ -1362,6 +1388,8 @@ export default function year1990() {
                         <thead>
                           <tr>
                             <th colSpan="3">2일차 ｜ 음반 부문</th>
+                          </tr>
+                          <tr>
                             <th/>
                             <th>아티스트</th>
                             <th>앨범</th>
@@ -1454,6 +1482,8 @@ export default function year1990() {
                         <thead>
                           <tr>
                             <th colSpan="3">1일차 ｜ 디지털음원 부문</th>
+                          </tr>
+                          <tr>
                             <th/>
                             <th>아티스트</th>
                             <th>곡명</th>
@@ -1557,6 +1587,8 @@ export default function year1990() {
                         <thead>
                           <tr>
                             <th colSpan="3">2일차 ｜ 음반 부문</th>
+                          </tr>
+                          <tr>
                             <th/>
                             <th>아티스트</th>
                             <th>앨범</th>

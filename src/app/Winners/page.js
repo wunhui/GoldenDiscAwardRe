@@ -4,8 +4,28 @@ import '@/app/scss/page/winner.scss'
 import { useState } from 'react'
 export default function Winners() {
   const datas = require('/public/data/winner_data.json')
-  const [currentTab, setCurrentTab] = useState(0)
   const [data, setData] = useState(datas.soundSource)
+  const [currentTab, setCurrentTab] = useState(0)
+
+  const buttons = [
+    {
+      id: 1,
+      title: '디지털 음원 부문',
+      color: 'blue',
+      data: datas.soundSource
+    },
+    {
+      id: 2,
+      title: '음반 부문',
+      color: 'green',
+      data: datas.record
+    }
+  ]
+
+  function handleClick(item, index) {
+    setCurrentTab(index); setData(item.data);
+  }
+
   return (
     <div className="winner section-gap">
       <div className='winner-title'>
@@ -14,16 +34,17 @@ export default function Winners() {
       <div className='winner-wrap'>
         <div className='winner-tab'>
           <div className='winner-tab-wrap'>
-            <button onClick={() => {setCurrentTab(0); setData(datas.soundSource)}} 
-              className={`${currentTab === 0 ? 'blue' : ''} ${'winner-tab-list'}`}
-            >
-              디지털 음원 부문
-            </button>
-            <button onClick={() => {setCurrentTab(1); setData(datas.record)}} 
-              className={`${currentTab === 1 ? 'green' : ''} ${'winner-tab-list'}`}
-            >
-              음반 부문
-            </button>
+            {
+              buttons.map((item, index) => {
+                return (
+                  <button key={item.id} onClick={() => {handleClick(item, index);}} 
+                    className={`${currentTab === index && item.color} ${'winner-tab-list'}`}
+                  >
+                    { item.title }
+                  </button>
+                )
+              })
+            }
           </div>
         </div>
         <div className='winner-content'>
@@ -31,7 +52,7 @@ export default function Winners() {
             data.map((item, index) => {
               if(item.id === 1) {                
                 return (
-                  <div className={`winner-content_l ${currentTab === 0 ? 'blue' : 'green'}`}>
+                  <div key={item.id} className={`winner-content_l ${currentTab === 0 ? 'blue' : 'green'}`}>
                     <div className='img-wrap'>
                       <img src={item.url} />
                     </div>
@@ -50,7 +71,7 @@ export default function Winners() {
               {
                 data.map(item => {
                   return (
-                      <li className='winner-content-list'>
+                      <li key={item.id} className='winner-content-list'>
                         <div className='img-wrap'>
                           <img src={item.url} />
                         </div>

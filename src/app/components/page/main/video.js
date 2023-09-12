@@ -6,7 +6,9 @@ export default function video() {
       <div className='video-wrap'>
         <div className='video-title'>
           <h3>골든디스크어워즈 비디오</h3>
+          <div className='pc'>
           <MoreButton />
+          </div>
         </div>
         <div className='video-gallery'>
           <div className='video-gallery-wrap'>
@@ -47,6 +49,9 @@ export default function video() {
                 </div>
               </li>
             </ul>
+          </div>
+          <div className='mob'>
+          <MoreButton />
           </div>
         </div>
       </div>

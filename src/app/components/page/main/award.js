@@ -6,7 +6,9 @@ export default function award() {
       <div className='award-wrap'>
         <div className='award-title'>
           <h3>제37회 골든디스크어워즈 수상자</h3>
-          <MoreButton />
+          <div className="pc">
+            <MoreButton />
+          </div>
         </div>
         <div className='award-gallery'>
           <ul className='award-gallery-wrap'>
@@ -27,6 +29,9 @@ export default function award() {
               </div>
             </li>
           </ul>
+        </div>
+        <div className="mob">
+          <MoreButton />
         </div>
       </div>
     </section>

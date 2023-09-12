@@ -18,20 +18,66 @@ export default function Video() {
       setLimit(limit + 10)
     }
   }
+
+  const [value, setValue] = useState(0)
+  const selectDatas = [
+    {
+      id: 1,
+      value: 0,
+      title: "2023년 37회"
+    },
+    {
+      id: 2,
+      value: 1,
+      title: "2022년 36회"
+    },
+    {
+      id: 3,
+      value: 2,
+      title: "2021년 35회"
+    },
+    {
+      id: 4,
+      value: 3,
+      title: "2020년 34회"
+    }
+  ]
+  function handleSelect(e) {
+    setValue(e.target.value); 
+    setCurrentTab(e.target.value);
+    setLimit(10); 
+    setData(list[e.target.value])
+  }
+  function handleClick(index) {
+    setCurrentTab(index); 
+    setLimit(10); 
+    setData(list[index])
+  }
   return (
     <div className="videos section-gap">
       <div className='videos-title'>
         <h3>수상자</h3>
       </div>
       <div className='videos-wrap'>
-        <div className='videos-tab'>
+        <div className='mob'>
+          <select className="select" onChange={(e) => {handleSelect(e)} }  value={value}>
+              {
+                selectDatas.map((item) => {
+                  return (
+                    <option key={item.id} value={item.value} >{item.title}</option>
+                  )
+                })
+              }
+            </select>
+        </div>
+        <div className='videos-tab pc'>
           <div className='videos-tab-wrap'>
             {
               datas.tabList.map((item, index) => {
                 return (
                 <button 
                   key={item.id}
-                  onClick={() => {setCurrentTab(index), setLimit(10); setData(list[index])} } 
+                  onClick={() => {handleClick(index)} } 
                   className={`${currentTab === index ? 'green' : ''} ${'videos-tab-list'}`}
                 >
                   {item.title}
