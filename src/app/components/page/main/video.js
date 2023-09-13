@@ -1,13 +1,19 @@
+'use client'
 import '@/app/scss/page/main/mainVideo.scss'
 import MoreButton from '@/app/components/common/MoreButton';
+import { useRouter } from 'next/navigation';
 export default function video() {
+  const Router = useRouter()
+  function handleLinkPush() {
+    Router.push('/Video')
+  }
   return (
     <section className='video section-bottom_lg'>
       <div className='video-wrap'>
         <div className='video-title'>
           <h3>골든디스크어워즈 비디오</h3>
           <div className='pc'>
-          <MoreButton />
+          <MoreButton handleClick={() => {handleLinkPush()}} />
           </div>
         </div>
         <div className='video-gallery'>
@@ -51,7 +57,7 @@ export default function video() {
             </ul>
           </div>
           <div className='mob'>
-          <MoreButton />
+          <MoreButton handleClick={() => {handleLinkPush()}} />
           </div>
         </div>
       </div>

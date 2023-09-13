@@ -1,13 +1,18 @@
 import '@/app/scss/page/main/mainAward.scss'
 import MoreButton from '@/app/components/common/MoreButton';
+import { useRouter } from 'next/navigation';
 export default function award() {
+  const Router = useRouter()
+  function handleLinkPush() {
+    Router.push('/Winners')
+  }
   return (
     <section className='award section-bottom_lg'>
       <div className='award-wrap'>
         <div className='award-title'>
           <h3>제37회 골든디스크어워즈 수상자</h3>
           <div className="pc">
-            <MoreButton />
+            <MoreButton handleClick={() => {handleLinkPush()}} />
           </div>
         </div>
         <div className='award-gallery'>
@@ -31,7 +36,7 @@ export default function award() {
           </ul>
         </div>
         <div className="mob">
-          <MoreButton />
+          <MoreButton handleClick={() => {handleLinkPush()}} />
         </div>
       </div>
     </section>

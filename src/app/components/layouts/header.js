@@ -6,7 +6,9 @@ import Nav from './nav'
 import Lang from './lang'
 import Link from 'next/link'
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 export default function Header() {
+  const pathname = usePathname() 
   const [mMenu, setMmenu] = useState(false)
   const linkList = [
     {
@@ -40,6 +42,7 @@ export default function Header() {
       path: '/Notice'
     }
   ]
+
   function handleCloseMenu() {
     document.querySelector('.l-container').style.overflow = 'auto'
     setMmenu(false)
@@ -57,11 +60,23 @@ export default function Header() {
   return (
     <header className="l-header">
       <div className="header-wrap">
-        <h1 className="logo">
-          <Link href="/">
-            <img src='/image/common/la_logo.png' />
-          </Link>
-        </h1>
+        <div className='mob'>
+          {
+            pathname.length > 1 &&
+              <h1 className="logo">
+                <Link href="/">
+                  <img src='/image/common/la_logo.png' />
+                </Link>
+              </h1>
+          }
+        </div>
+        <div className='pc'>
+          <h1 className="logo">
+            <Link href="/">
+              <img src='/image/common/la_logo.png' />
+            </Link>
+          </h1>
+        </div>
         <div className='header-content'>
           <Nav/>
           <Lang/>
