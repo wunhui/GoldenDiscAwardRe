@@ -7,11 +7,11 @@ import Vote from '@/app/components/page/main/vote'
 import Supporter from '@/app/components/page/main/supporter'
 import { useEffect, useState } from 'react'
 export default function Home() {
-  const [isLoaing, setLoading] = useState(false)
+  const [isLoaing, setLoading] = useState(true)
   useEffect(() => {
-    // setTimeout(() => {
-    //   setLoading(false)
-    // }, 5000)
+    setTimeout(() => {
+      setLoading(false)
+    }, 5400)
   })
   return (
     <div className={isLoaing ? 'is-loading' : ''}>
